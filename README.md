@@ -10,17 +10,15 @@
 ---
 This data analysis project aims to provide insights into an e-commerce company's sales performance over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
 
-![Clustered-Bar-Chart](https://github.com/user-attachments/assets/78c83fd9-7264-4e1f-8560-1b7f5ee74c1a)
 ![Screenshot_OrderTable](https://github.com/user-attachments/assets/ddace4b4-6b6f-49cc-bbf0-acb984da1e73)
+![Clustered-Bar-Chart](https://github.com/user-attachments/assets/78c83fd9-7264-4e1f-8560-1b7f5ee74c1a)
 
 ### Data Sources
 Sales Data: The primary dataset used for this analysis is the "sales_data.csv" file, containing detailed information about each sale made by the company.
 
 ### Tools
-- Microsoft Excel - Data Cleaning
-    - [Download here](https://www.microsoft.com/en-ca/microsoft-365/excel)
-- SQL Server - Data Analysis
-- PowerBI - Creating Report
+- Microsoft Excel - Data Cleaning, Analysis and Visualization
+  - [Download here](https://www.microsoft.com/en-ca/microsoft-365/excel)
 
 ### Data Cleaning/Preparation
 In the initial data preparation phase, we performed the following tasks:
