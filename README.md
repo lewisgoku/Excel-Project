@@ -1,5 +1,4 @@
-# Excel-Project
-# E-Commerce Sales Analysis
+# Excel Project: Coffee Shop Sales
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -56,8 +55,7 @@ Based on the analysis, we recommend the following actions:
 I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
 
 ### References
-1. SQL for Businesses by werty.
-2. [Stack Overflow](https://stack.com
+Dataset  by Mo Chen: *mochen862*
 
 😄
 
