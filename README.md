@@ -46,16 +46,7 @@ Email = IF(XLOOKUP(C2,customers!$A$1:$A$1001,customers!$C1:$C1001,,0)=0,"",XLOOK
 Country = XLOOKUP(C2,customers!$A$1:$A$1001,customers!$G$1:$G$1001,,0)
 ```
 ```Excel
-Coffee Type = INDEX(products!$A$1:$G$49,MATCH(orders!$D2,products!$A$1:$A$49,0),MATCH(orders!J$1,products!$A$1:$G$1,0))
-```
-```Excel
-Roast Type =
-```
-```Excel
-Size = 
-```
-```Excel
-Unit price = 
+Coffee Type,Roast Type,Size,Unit price = INDEX(products!$A$1:$G$49,MATCH(orders!$D2,products!$A$1:$A$49,0),MATCH(orders!J$1,products!$A$1:$G$1,0))
 ```
 ```Excel
 Sales = E2*L2
