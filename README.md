@@ -48,10 +48,11 @@ In the initial data preparation phase, we performed the following tasks:
   - Convert range to table
 
 ### Exploratory Data Analysis
-EDA involved exploring the sales data to answer critical questions, such as:
-- What is the overall sales trend?
-- Which products are top sellers?
-- What are the peak sales periods?
+EDA involves examining the sales data to address key questions, including:
+- What is the overall sales trend by Coffee Type over the specified date range?
+- What are the total sales figures across different countries?
+- Which product sizes and roast types are the top sellers?
+- How do sales compare between customers with loyalty cards and those without?
 
 ### Results and Findings
 The analysis results are summarized as follows:
@@ -66,28 +67,8 @@ Based on the analysis, we recommend the following actions:
 - Implement a customer segmentation strategy to target high-LTV customers effectively.
 
 ### Limitations
-I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
+The dataset is clean and data has been standardized for the purpose of this analysis. There are no limitations for this analysis.
 
 ### References
-Dataset  by Mo Chen: *mochen862*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Dataset by [Mo Chen: mochen862](https://github.com/mochen862/excel-project-coffee-sales)
 
