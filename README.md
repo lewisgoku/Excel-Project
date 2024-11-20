@@ -1,7 +1,6 @@
 # Excel Project: Coffee Shop Sales
-
-### Project Overview
 ---
+### Project Overview
 This data analysis project aims to provide insights into an e-commerce company's sales performance over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
 ![image](https://github.com/user-attachments/assets/aa187afd-a182-4db0-9a0c-bd9d094706c0)
 ![Screenshot_OrderTable](https://github.com/user-attachments/assets/ddace4b4-6b6f-49cc-bbf0-acb984da1e73)
@@ -44,10 +43,10 @@ In the initial data preparation phase, we performed the following tasks:
 - Data loading and inspection.
 - Handling missing values.
 - Data cleaning and formatting.
+  - Removed duplicates
   - Order Data: *Update custom format to dd-mmm-yyy*
   - Update Size: *Update custom format to 0.0"kg"*
   - Unit price/Sales: *Currency format $0.00*
-  - Removed duplicates
   - Convert range to table
 
 ### Exploratory Data Analysis
