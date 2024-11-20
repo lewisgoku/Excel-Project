@@ -36,29 +36,39 @@ EDA involved exploring the sales data to answer critical questions, such as:
 
 ### Data Analysis
 Include some exciting code/features worked with
-```SQL
-Select * from table
-wHERE ID = 3,
-
-```Microsoft Excel
-Customer Name =XLOOKUP(C2,customers!$A$1:$A$1001,customers!$B$1:$B$1001,,0)
-```
-
 ```Excel
 Customer Name = XLOOKUP(C2,customers!$A$1:$A$1001,customers!$B$1:$B$1001,,0)
 ```
+```Excel
 Email = IF(XLOOKUP(C2,customers!$A$1:$A$1001,customers!$C1:$C1001,,0)=0,"",XLOOKUP(C2,customers!$A$1:$A$1001,customers!$C1:$C1001,,0))
+```
+```Excel
 Country = XLOOKUP(C2,customers!$A$1:$A$1001,customers!$G$1:$G$1001,,0)
+```
+```Excel
 Coffee Type = INDEX(products!$A$1:$G$49,MATCH(orders!$D2,products!$A$1:$A$49,0),MATCH(orders!J$1,products!$A$1:$G$1,0))
+```
+```Excel
 Roast Type =
+```
+```Excel
 Size = 
+```
+```Excel
 Unit price = 
+```
+```Excel
 Sales = E2*L2
+```
+```Excel
 Coffee Type Name = IF(I2="Rob","Robusta",IF(I2="Exc","Excelsa",IF(I2="Ara","Arabica",IF(I2="Lib","Liberica",""))))
+```
+```Excel
 Roast Type Name = IF(J2="M","Medium",IF(J2="L","Light",IF(J2="D","Dark","")))
+```
+```Excel
 Loyalty Card = XLOOKUP([@[Customer ID]],customers!$A$1:$A$1001,customers!$I$1:$I$1001,,0)
 ```
-
 ### Results and Findings
 The analysis results are summarized as follows:
 1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
