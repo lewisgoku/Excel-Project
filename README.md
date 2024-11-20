@@ -27,11 +27,11 @@ In the initial data preparation phase, we performed the following tasks:
 1. Data loading and inspection.
 2. Handling missing values.
 3. Data cleaning and formatting.
-- Order Data: *Update custom format to dd-mmm-yyy*
-- Update Size: *Update custom format to 0.0"kg"*
-- Unit price/Sales: *Currency format $0.00*
-- Removed duplicates
-- Convert range to table
+  - Order Data: *Update custom format to dd-mmm-yyy*
+  - Update Size: *Update custom format to 0.0"kg"*
+  - Unit price/Sales: *Currency format $0.00*
+  - Removed duplicates
+  - Convert range to table
 
 ### Exploratory Data Analysis
 EDA involved exploring the sales data to answer critical questions, such as:
