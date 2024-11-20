@@ -12,8 +12,11 @@ This data analysis project aims to provide insights into an e-commerce company's
 ![image](https://github.com/user-attachments/assets/aa187afd-a182-4db0-9a0c-bd9d094706c0)
 ![Screenshot_OrderTable](https://github.com/user-attachments/assets/ddace4b4-6b6f-49cc-bbf0-acb984da1e73)
 
-### Data Sources
-Sales Data: The primary dataset used for this analysis is the "sales_data.csv" file, containing detailed information about each sale made by the company.
+### Data and Analysis Sources
+Sales Data: The primary dataset used for this analysis is the "coffeeOrdersData.xlsx" file, which contains detailed information about customers and products for the fictional Coffee Shop. The Orders worksheet is derived as follow;
+
+  
+  
 
 ### Tools
 - Microsoft Excel - Data Cleaning, Analysis and Visualization
@@ -36,7 +39,12 @@ Include some exciting code/features worked with
 ```SQL
 Select * from table
 wHERE ID = 3,
+
 ```
+```Microsoft Excel
+Customer Name =XLOOKUP(C2,customers!$A$1:$A$1001,customers!$B$1:$B$1001,,0)
+```
+
 ### Results and Findings
 The analysis results are summarized as follows:
 1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
