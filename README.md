@@ -1,11 +1,5 @@
 # Excel Project: Coffee Shop Sales
 
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Results and Findings](#results-and-findings)
-- [Recommendations](#recommendations)
-
-
 ### Project Overview
 ---
 This data analysis project aims to provide insights into an e-commerce company's sales performance over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
@@ -15,29 +9,9 @@ This data analysis project aims to provide insights into an e-commerce company's
 ### Data and Analysis Sources
 Sales Data: The primary dataset used for this analysis is the "coffeeOrdersData.xlsx" file, which contains detailed information about customers and products for the fictional Coffee Shop. The Orders worksheet is derived as follow;
 
-  
-  
-
 ### Tools
 - Microsoft Excel - Data Cleaning, Analysis and Visualization
   - [Download here](https://www.microsoft.com/en-ca/microsoft-365/excel)
-
-### Data Cleaning/Preparation
-In the initial data preparation phase, we performed the following tasks:
-1. Data loading and inspection.
-2. Handling missing values.
-3. Data cleaning and formatting.
-  - Order Data: *Update custom format to dd-mmm-yyy*
-  - Update Size: *Update custom format to 0.0"kg"*
-  - Unit price/Sales: *Currency format $0.00*
-  - Removed duplicates
-  - Convert range to table
-
-### Exploratory Data Analysis
-EDA involved exploring the sales data to answer critical questions, such as:
-- What is the overall sales trend?
-- Which products are top sellers?
-- What are the peak sales periods?
 
 ### Data Analysis
 Include some exciting code/features worked with
@@ -65,6 +39,23 @@ Roast Type Name = IF(J2="M","Medium",IF(J2="L","Light",IF(J2="D","Dark","")))
 ```Excel
 Loyalty Card = XLOOKUP([@[Customer ID]],customers!$A$1:$A$1001,customers!$I$1:$I$1001,,0)
 ```
+### Data Cleaning/Preparation
+In the initial data preparation phase, we performed the following tasks:
+- Data loading and inspection.
+- Handling missing values.
+- Data cleaning and formatting.
+  - Order Data: *Update custom format to dd-mmm-yyy*
+  - Update Size: *Update custom format to 0.0"kg"*
+  - Unit price/Sales: *Currency format $0.00*
+  - Removed duplicates
+  - Convert range to table
+
+### Exploratory Data Analysis
+EDA involved exploring the sales data to answer critical questions, such as:
+- What is the overall sales trend?
+- Which products are top sellers?
+- What are the peak sales periods?
+
 ### Results and Findings
 The analysis results are summarized as follows:
 1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
