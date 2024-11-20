@@ -1,19 +1,17 @@
 # Excel Project: Coffee Shop Sales
----
+
 ### Project Overview
-This data analysis project aims to provide insights into an e-commerce company's sales performance over the past year. By analyzing various aspects of the sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
+---
+This data analysis project aims to provide insights into the sales performance of a fictional coffee shop over a four-year period. By examining various aspects of the sales data, we intend to identify trends, make data-driven recommendations, and gain a deeper understanding of the coffee shop's overall performance.
 ![image](https://github.com/user-attachments/assets/aa187afd-a182-4db0-9a0c-bd9d094706c0)
 ![Screenshot_OrderTable](https://github.com/user-attachments/assets/ddace4b4-6b6f-49cc-bbf0-acb984da1e73)
-
-### Data and Analysis Sources
-Sales Data: The primary dataset used for this analysis is the "coffeeOrdersData.xlsx" file, which contains detailed information about customers and products for the fictional Coffee Shop. The Orders worksheet is derived as follow;
 
 ### Tools
 - Microsoft Excel - Data Cleaning, Analysis and Visualization
   - [Download here](https://www.microsoft.com/en-ca/microsoft-365/excel)
 
-### Data Analysis
-Include some exciting code/features worked with
+### Data Sources and Analysis
+The main dataset for this analysis is the "coffeeOrdersData.xlsx" file, which includes detailed information about customers and products for the fictional Coffee Shop. The Orders worksheet is derived as follows:
 ```Excel
 Customer Name = XLOOKUP(C2,customers!$A$1:$A$1001,customers!$B$1:$B$1001,,0)
 ```
