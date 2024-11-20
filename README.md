@@ -55,19 +55,16 @@ EDA involves examining the sales data to address key questions, including:
 - How do sales compare between customers with loyalty cards and those without?
 
 ### Results and Findings
-The analysis results are summarized as follows:
-1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
-2. Product Category A is the best-performing category in terms of sales and revenue.
-3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
+The analysis results can be summarized as follows:
+1. Coffee shop sales fluctuated throughout the four years, with a significant peak during the holiday season.
+2. The Light roast category is the top performer in terms of total sales.
+3. Customer segments with loyalty cards exhibit higher turnover compared to those without.
 
 ### Recommendations
-Based on the analysis, we recommend the following actions:
-- Invest in marketing and promotions during peak sales seasons to maximize revenue.
-- Focus on expanding and promoting products in Category A.
-- Implement a customer segmentation strategy to target high-LTV customers effectively.
-
-### Limitations
-The dataset is clean and data has been standardized for the purpose of this analysis. There are no limitations for this analysis.
+Based on the analysis, I recommend the following actions:
+- Invest in marketing and promotions during peak sales seasons to maximize revenue.  
+- Focus on expanding and promoting products within the light roast category.  
+- Implement a customer segmentation strategy to effectively target loyal customers.  
 
 ### References
 Dataset by [Mo Chen: mochen862](https://github.com/mochen862/excel-project-coffee-sales)
