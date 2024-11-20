@@ -40,9 +40,22 @@ Include some exciting code/features worked with
 Select * from table
 wHERE ID = 3,
 
-```
-```Microsoft Excel
+`Microsoft Excel
 Customer Name =XLOOKUP(C2,customers!$A$1:$A$1001,customers!$B$1:$B$1001,,0)
+```
+
+```Microsoft Excel
+Customer Name = XLOOKUP(C2,customers!$A$1:$A$1001,customers!$B$1:$B$1001,,0)
+Email = IF(XLOOKUP(C2,customers!$A$1:$A$1001,customers!$C1:$C1001,,0)=0,"",XLOOKUP(C2,customers!$A$1:$A$1001,customers!$C1:$C1001,,0))
+Country = XLOOKUP(C2,customers!$A$1:$A$1001,customers!$G$1:$G$1001,,0)
+Coffee Type = INDEX(products!$A$1:$G$49,MATCH(orders!$D2,products!$A$1:$A$49,0),MATCH(orders!J$1,products!$A$1:$G$1,0))
+Roast Type =
+Size = 
+Unit price = 
+Sales = E2*L2
+Coffee Type Name = IF(I2="Rob","Robusta",IF(I2="Exc","Excelsa",IF(I2="Ara","Arabica",IF(I2="Lib","Liberica",""))))
+Roast Type Name = IF(J2="M","Medium",IF(J2="L","Light",IF(J2="D","Dark","")))
+Loyalty Card = XLOOKUP([@[Customer ID]],customers!$A$1:$A$1001,customers!$I$1:$I$1001,,0)
 ```
 
 ### Results and Findings
